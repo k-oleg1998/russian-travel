@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding-top: 28px;
     width: calc(100% - (48px * 2));
-    max-width: 2560px;  
+    max-width: 2560px;
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-end;
@@ -12,13 +12,13 @@
 @media screen and (max-width: 1280px) {
     .header {
     margin: 0;
-    width: calc(100% - (48px * 2));   
+    width: calc(100% - (48px * 2));
     padding: 28px 48px 0 48px;      
 }}
 
 @media screen and (max-width: 768px) {
 .header {
-    padding: 28px 24px 0 24px; 
+    padding: 28px 24px 0 24px;
     width: calc(100% - (24px * 2));  
 }}
 
