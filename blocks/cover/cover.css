@@ -1,0 +1,22 @@
+.cover {
+    margin: 0 auto;
+    background-color:  rgba(42, 44, 47, 0.3);
+    background-image: url(../../images/cover-trains.jpg);
+    background-blend-mode: overlay;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: 0.8s;
+    width: 100%;
+    max-width: 2560px;
+    max-height: 740px;
+}
+
+.cover:hover {
+    background-color: #2A2C2F;
+    opacity: 0.8;
+}
