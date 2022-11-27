@@ -2,7 +2,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     padding-top: 57px;
     width: calc(100% - ((148px - 48px) * 2));
     max-width: 984px;
