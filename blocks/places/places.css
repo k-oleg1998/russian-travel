@@ -2,8 +2,7 @@
     margin: 0 auto;
     padding: 92px 0;
     width: calc(100% - ((148px - 48px) * 2));
-    max-width: 2560px;
-    list-style-type: none;
+    max-width: 985px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -18,7 +17,8 @@
 
 @media screen and (max-width: 768px) {
     .places {
-    width: 100% - (24px * 2);
+    max-width: 720px;
+    width: 100% ;
     padding: 88px 0 90px 0;
 }}
 

@@ -2,21 +2,17 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    padding-top: 48px;
-    width: 100%; 
-}
-
-@media screen and (min-width: 1280px) {
-    .lead {
+    flex-wrap: nowrap; 
     padding-top: 57px;
     width: calc(100% - ((148px - 48px) * 2));
-    max-width: 2560px;
-}}
+    max-width: 984px;
+}
 
 @media screen and (max-width: 1024px) {
     .lead {
-    padding: 48px 48px 0 48px;
+    max-width: 928px;
+    padding-top: 48px;
+    width: 100%;
 }}
 
 @media screen and (max-width: 768px) {

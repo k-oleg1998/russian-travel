@@ -12,11 +12,30 @@
     z-index: 1;
     transition: 0.8s;
     width: 100%;
-    max-width: 2560px;
-    max-height: 740px;
+    max-width: 1184px;
+    min-height: 740px;
+    background-size: cover;
 }
 
 .cover:hover {
     background-color: #2A2C2F;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+    max-width: 1024px;
+    min-height: 640px;
+}}
+
+@media screen and (max-width: 768px) {
+    .cover {
+    max-width: 768px;
+    min-height: 480px;
+}}
+
+@media screen and (max-width: 700px) {
+    .cover {
+    max-width: 700px;
+    min-height: 200px;
+}}

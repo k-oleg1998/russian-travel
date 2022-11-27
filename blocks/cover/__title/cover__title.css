@@ -6,27 +6,26 @@
     line-height: 1.06;
     text-align: center;
     color: #FFF;
-    margin: 245px auto 32px auto;
-    width: calc(100% - (312px * 2));
+    margin: 0 auto;
+    width: 100%;
+    max-width: 560px;
     z-index: 3;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-    margin: 195px auto 32px auto;
-    width: 55%;
+    margin: 195px auto 0;
 }}
 
 @media screen and (max-width: 768px) {
     .cover__title {
-    margin: 115px auto 32px auto;
-    width: 77%;
+    margin: 115px auto 0;
 }}
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
     .cover__title {
-    margin: 33px auto 16px auto;
-    width: calc(100% - (33px * 2));
+    margin: 33px auto 0;
+    max-width: 288px;
     font-size: 32px;
     line-height: 1.09;
 }}
