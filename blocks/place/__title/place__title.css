@@ -15,7 +15,7 @@
     max-width: 330px;
 }}
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
     .place__title {
     grid-row: 1/2;
     grid-column: 1/2;
